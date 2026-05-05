@@ -21,7 +21,7 @@ kind create cluster
 kubectl get nodes
 ```
 
-![Nodes](Kubernetes-assignment/screenshots/kubectl get nodes.png)
+![Nodes](screenshots/kubectl-get-nodes.png)
 
 
 ---
@@ -35,7 +35,7 @@ docker push hanishabogadhi/backend
 docker build -t hanishabogadhi/frontend ./frontend
 docker push hanishabogadhi/frontend
 ```
-![Docker Hub Repos](Kubernetes-assignment/screenshots/DockerHub repos.png)
+![Docker Hub Repos](screenshots/DockerHub-repos.png)
 
 ---
 
@@ -46,7 +46,7 @@ kubectl apply -f k8s/backend.yaml
 kubectl apply -f k8s/frontend.yaml
 ```
 
-![apply output](Kubernetes-assignment/screenshots/apply output.png)
+![apply output](screenshots/apply-output.png)
 
 
 ---
@@ -59,9 +59,9 @@ kubectl get svc
 kubectl get deployments
 ```
 
-![Resources](Kubernetes-assignment/screenshots/Verify Resources.png)
+![Resources](screenshots/Verify Resources.png)
 
-![Kubernetes Dashboard](Kubernetes-assignment/screenshots/kubernetes dashboard.png)
+![Kubernetes Dashboard](screenshots/kubernetes-dashboard.png)
 
 ---
 
@@ -74,9 +74,9 @@ kubectl port-forward svc/frontend 7001:80
 Open: http://localhost:7001
 
 
-![Application UI in browser](Kubernetes-assignment/screenshots/Application UI in browser.png)
+![Application UI in browser](screenshots/Application-UI-in-browser.png)
 
-![Form submission result](Kubernetes-assignment/screenshots/Form submission result.png)
+![Form submission result](screenshots/Form-submission-result.png)
 
 
 ---
