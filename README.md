@@ -59,7 +59,7 @@ kubectl get svc
 kubectl get deployments
 ```
 
-![Resources](screenshots/Verify Resources.png)
+![Resources](screenshots/Verify-Resources.png)
 
 ![Kubernetes Dashboard](screenshots/kubernetes-dashboard.png)
 
